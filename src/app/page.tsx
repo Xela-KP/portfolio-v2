@@ -1,3 +1,11 @@
-export default function Home() {
-  return <main></main>;
-}
+import Header from "components/header/Header";
+import Content from "components/content/Content";
+
+const Home = () => (
+  <>
+    <Header />
+    <Content />
+  </>
+);
+
+export default Home;
