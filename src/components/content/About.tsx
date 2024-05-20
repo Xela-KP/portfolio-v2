@@ -1,3 +1,5 @@
+import LinkArrow from "components/icons/LinkArrow";
+
 const About = () => (
   <section
     id="about"
@@ -5,12 +7,28 @@ const About = () => (
     aria-label="Work experience"
   >
     <p className="my-4">
-      I was introduced to programming at the age of 15 by my brother. I got
-      hooked after building a command-line tic-tac-toe with python.
+      I was introduced to programming at the age of 15 by my brother. I became
+      hooked after building my first program: A command-line tic-tac-toe in Python.
     </p>
-    <p>
-      I am currently a third year student at Western University seeking
+    <p className="my-4">
+      I am currently a third year student at &nbsp;
+      <p className="inline-block text-purple-500">Western University</p>, seeking
       internship opportunities and building my portfolio through side-projects.
+    </p>
+
+    <p>
+      Check out &nbsp;
+      <a
+        href="https://xela-kp.github.io/"
+        className="inline-block max-w-fit opacity-50 hover:!opacity-100 transition-all"
+      >
+        <p className="text-sky">
+          my old website
+          <span className="inline-block">
+            <LinkArrow />
+          </span>
+        </p>
+      </a>
     </p>
   </section>
 );
