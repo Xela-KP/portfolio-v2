@@ -12,18 +12,18 @@ const projects: Projects = {
     link: "https://github.com/Xela-KP/perochoos",
     linksTo: "GitHub",
   },
-  NomadPortfolios: {
-    name: "Nomad Portfolios",
-    description:
-      "We build media-portfolios for individual clients, targeting University Students looking to stand out and gain a competitive edge over others.",
-    languages: ["NextJS", "TypeScript", "MaterialUI"],
-    date: {
-      from: "Apr 2024",
-      to: "Present",
-    },
-    link: "https://github.com/Xela-KP/nomad",
-    linksTo: "GitHub",
-  },
+  // NomadPortfolios: {
+  //   name: "Nomad Portfolios",
+  //   description:
+  //     "We build media-portfolios for individual clients, targeting University Students looking to stand out and gain a competitive edge over others.",
+  //   languages: ["NextJS", "TypeScript", "MaterialUI"],
+  //   date: {
+  //     from: "Apr 2024",
+  //     to: "Present",
+  //   },
+  //   link: "https://github.com/Xela-KP/nomad",
+  //   linksTo: "GitHub",
+  // },
   LiteCode: {
     name: "Lite Code",
     description:
