@@ -1,9 +1,21 @@
 import { Projects } from "../projects/project";
 
 const projects: Projects = {
+  Thalassophobia: {
+    name: "Thalassophobia",
+    description:
+      "A first-person multiplayer horror game that simulates being stranded in the ocean. \
+      Currently under development alongside my brother using the Unity game engine.",
+    languages: ["Unity", "C#"],
+    date: { from: "May 2024", to: "present" },
+    link: "https://github.com/perochorichard/ocean_game",
+    linksTo: "GitHub",
+  },
   PerochoOS: {
     name: "Perocho OS",
-    description: "a Web Based Windows OS",
+    description:
+      "a Web Based Windows OS side project. Inspired by Dustin Brett.\
+    Currently under development",
     languages: ["ReactJS", "NextJS", "TypeScript", "Tailwind"],
     date: {
       from: "Apr 2024",
