@@ -8,26 +8,30 @@ const About = () => (
   >
     <p className="my-4">
       I was introduced to programming at the age of 15 by my brother. I became
-      hooked after building my first program: A command-line tic-tac-toe in Python.
+      hooked after building my first program: A command-line tic-tac-toe in
+      Python.
     </p>
     <p className="my-4">
       I am currently a third year student at &nbsp;
-      <p className="inline-block text-purple-500">Western University</p>, seeking
-      internship opportunities and building my portfolio through side-projects.
+      <span className="inline-block text-purple-500">Western University</span>,
+      seeking internship opportunities and building my portfolio through
+      side-projects.
     </p>
 
     <p>
       Check out &nbsp;
       <a
         href="https://xela-kp.github.io/"
+        target="_blank"
+        rel="noopener noreferrer"
         className="inline-block max-w-fit opacity-50 hover:!opacity-100 transition-all"
       >
-        <p className="text-sky">
+        <span className="text-sky">
           my old website
           <span className="inline-block">
             <LinkArrow />
           </span>
-        </p>
+        </span>
       </a>
     </p>
   </section>
