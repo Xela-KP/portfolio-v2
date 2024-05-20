@@ -27,8 +27,8 @@ const ProjectLoader = ({
           href={link}
           className="absolute inset-0 rounded-md group-hover/item:opacity-10 group-hover/item:bg-gray-700/50 group-hover/item:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] group-hover/item:drop-shadow-lg transition-all"
         />
-        <div className="grid grid-cols-3 gap-x-2">
-          <span className="pt-1 grid-rows-2">
+        <div className="grid grid-cols-4 gap-x-2">
+          <span className="col-span-2 pt-1 grid-rows-2">
             <h3 className="text-gray-500 font-semibold text-sm">
               {date.from} - {date.to}
             </h3>

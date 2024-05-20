@@ -5,9 +5,9 @@ const projects: Projects = {
     name: "Thalassophobia",
     description:
       "A first-person multiplayer horror game that simulates being stranded in the ocean. \
-      Currently under development alongside my brother using the Unity game engine.",
+      Currently under development.",
     languages: ["Unity", "C#"],
-    date: { from: "May 2024", to: "present" },
+    date: { from: "May 2024", to: "Present" },
     link: "https://github.com/perochorichard/ocean_game",
     linksTo: "GitHub",
   },
@@ -51,7 +51,7 @@ const projects: Projects = {
   TerraTalks: {
     name: "Terra Talks",
     description:
-      "A web-app that leverages OpenAI’s NLP API to parse user input into Overpass Turboqueries that locate and display geo-referenced objects through Open Street Maps API.",
+      "A web-app that leverages OpenAI’s NLP API to parse user input into Overpass Turboqueries, locating geo-referenced objects through Open Street Maps API.",
     languages: ["ReactJS", "TypeScript", "Overpass", "Open StreetMaps"],
     date: {
       from: "Feb 2024",
@@ -59,6 +59,32 @@ const projects: Projects = {
     },
     link: "https://devpost.com/software/terratalk",
     linksTo: "DevPost",
+  },
+  SortVisual: {
+    name: "Sorting Algorithm Visualizer",
+    description:
+      "A web-app that visualizes simple quadratic and logarithmic \
+    sorting algorithms.",
+    languages: ["HTML", "CSS", "JavaScript", "Jquery"],
+    date: {
+      from: "Nov 2021",
+      to: "Dec 2021",
+    },
+    link: "https://xela-kp.github.io/projects/sort_visualizer/sort_visualizer.index.html",
+    linksTo: "Website",
+  },
+  Chess: {
+    name: "Chess",
+    description:
+      "A Chess Web-App made with vanilla HTML, CSS, and JavaScript.\
+      Created during a time where I was obsessed with Chess.",
+    languages: ["HTML", "CSS", "JavaScript", "JQuery"],
+    date: {
+      from: "Oct 2021",
+      to: "Nov 2021",
+    },
+    link: "https://xela-kp.github.io/projects/chess/chess.index.html",
+    linksTo: "Website",
   },
 };
 export default projects;
